@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "145898670823",
+    "firebase_url": "https://pinfo-72e24.firebaseio.com",
+    "project_id": "pinfo-72e24",
+    "storage_bucket": "pinfo-72e24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145898670823:android:213ea6f204e2a046",
+        "android_client_info": {
+          "package_name": "com.reddit.pinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145898670823-npogra883kmhqjk4ccio931v25tff41l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reddit.pinfo",
+            "certificate_hash": "65427c45deb400cf372345b5efd9d380585e2807"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8CJgbGoa38y9Hhu7gE1rf3ctaOBZ03M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145898670823-ju0bmgoolqb4uadns80vs209kb9vdgf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

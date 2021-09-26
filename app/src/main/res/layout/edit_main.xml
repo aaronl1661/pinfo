@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:paddingTop="50dp"
+    android:background="#e1f2ef"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="53dp"
+        android:hint="Name"
+        />
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:editable="true"-->
+        <!--android:ems="10"-->
+        <!--android:text="Email"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--tools:layout_editor_absoluteX="85dp"-->
+        <!--tools:layout_editor_absoluteY="125dp" />-->
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ems="10"
+        android:text="Phone"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="199dp"
+        android:hint="Phone"
+        />
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:text="Email"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="280dp"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:text="Address"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="280dp"
+        android:hint="Address"
+        />
+    <EditText
+        android:id="@+id/webText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:text="Website"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="280dp"
+        android:hint="Website"
+        />
+    <Button
+        android:background = "#ffffff"
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Contacts"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="373dp" />
+    <Button
+        android:background = "#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/backBtn"
+        android:text="Return"/>
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1f2ef"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mTextView"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/nameText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/phoneText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/emailText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/webText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/addressText"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:layout_weight="1"
+    android:gravity="center|bottom"
+    android:orientation="horizontal">
+
+        <Button
+        android:background = "#ffffff"
+        android:id="@+id/RetryBtn"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:text="Rescan"
+        android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        />
+
+        <Button
+        android:background = "#ffffff"
+        android:id="@+id/finBtn"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:text="Cardify"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+</LinearLayout>
